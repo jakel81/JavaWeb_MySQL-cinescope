@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 oct. 2017, 16:26:25
+    Author     : rayanakel
+*/
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;   
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 170px;
+    font-size: x-large;
+    font-weight: bolder;
+    line-height: 100px;
+
+}
+
+search{
+    background-color: white;
+    color: black;
+    height: 2%;
+}
+
+nav{
+    background-color: grey;
+    color: white;
+    width: 200px;
+    margin-top: 55px;
+}
+
+article{
+    background-color: white;
+    padding: 1%;
+}
+
+footer{
+    border-top: 1px solid black;
+    background-color: white;
+    color: black;
+    height: 3%;
+    padding: 1%;
+    margin-top: 60px;
+
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: block;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+nav ul li a{
+    color: white; 
+    text-decoration: none;
+}
+
+#articleAccueil{
+    text-align: center;
+}
+
+.marge {
+    margin-left: 10em;
+}
+
+nav a:hover {
+    color: #ED134A;
+}
+
+fieldset{
+    border: 1px #0568CD solid;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+legend{
+    margin-bottom: 0px;
+    margin-left: 16px;
+    color: #0568CD;
+}
+
+form label {
+    float: left;
+    width: 200px;
+    margin: 3px 0px 0px 0px;
+}
+
+form input {
+    margin: 3px 3px 0px 0px;
+    border: 1px #999 solid;
+}
+
+form select {
+    margin: 3px 3px 0px 0px;
+    border: 1px solid;
+}
+
+body, p, legend, label, input {
+    font: normal 11pt verdana, helvetica, sans-serif;
+}
